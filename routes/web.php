@@ -14,3 +14,5 @@
 Route::get('/', function () {
     return "Test Git 002";
 });
+
+Route::get('/mail','TestmailController@index');
